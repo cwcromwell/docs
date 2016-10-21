@@ -167,7 +167,6 @@ To this, we currently have two answers, and will soon have a third:
 
 3. OK, we will have aliases. We agree they can be very useful.
 
-## Overview
 
 ## Overview
 
