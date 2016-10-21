@@ -169,41 +169,59 @@ To this, we currently have two answers, and will soon have a third:
 
 ## Overview
 
-You can define a set of command aliases. Typically, these are read from the .p4alias file in your home
-directory (p4aliases.txt on Windows); later in this document we'll describe details about the syntax of this
-file, as well as the P4ALIASES configuration setting.
-
-At the very start of operation, before running your command, p4 will now perform alias interpretation; if
-the command is modified due to one or more aliases, p4 will run the modified command instead.
-
-Note that this is completely a client-side feature, and hence it works with any server/proxy/broker/replica
-configuration that you have. The precise commands you can run, of course, still depend on the particular
-server you're talking to.
-
-Also, note that this is purely a command line client feature, not part of the API, so it only works in the
-standard p4 command line client, not any derived clients or guis.
-
-### Alias processing
-Once p4 has figured out which command aliases (if any) have been defined, it processes them in order,
-going through each alias until it finds one which describes a modification of the current command.
-If it doesn't find any such alias, it is done, and it runs the command.
-
-But if it does find such an alias, it performs the modification and then restarts from the beginning,
-re-checking each alias.
-
-This means that a command may end up being transformed 0, 1, or even multiple times before it is run,
-depending on what particular aliases are present.
+## Overview
 
 ### What is an alias?
 
-An alias consists of two parts:
+When using Perforce in the command line, you can create an alias for any of the built-in commands. Usually, the alias is something short and memorable. For example, you can type 
 
-*a pattern, which names the alias, and
+```
+my-changes
 
-*a transformation rule, which describes how to transform the command
+```
 
-In your aliases file, an alias is defined on a single line, with an equals sign after the pattern.
+rather than
 
+```
+changes -u $(P4USER)
+```
+
+[to see your most recent changes]
+
+### Creating a new alias
+
+
+The convention for creating such an alias requires three parts:
+
+*The alias itself, the short and memorable nickname which you choose
+
+*The equals sign
+
+*The command that you want executed whenever you use the alias
+
+You can add or edit aliases with a text editor, in the **.p4alias** file, found in your home directory **(p4aliases.txt on Windows)**.
+
+The example described above would look like this: 
+
+```
+my-changes = changes -u $(P4USER)
+```
+
+Once that line of code is saved, you'll be able to type "my-changes" instead of remembering the command string on the right.
+
+### How does it actually work?
+
+When you type instructions in the command line, p4 will check the aliases file for matches before executing any commands.
+
+Before executing each built-in command, p4 will review the aliases included in your command string to see whether any of them modify the command. This is repeated with each built-in command.  
+
+[can I overwrite built-in commands]
+
+### Some other things
+
+Remember, aliases are only useful if you're working in the standard p4 command line. If you are working in a derived client or a graphical user interface -- you won't need them. 
+
+If you are in the command line, however, aliases will work with any server/proxy/broker/replica configuration, but the commands you can run will still depend on the particular server you're talking to.
 ###Adding an alias
 
 You can just edit your aliases file with your favorite editor.
