@@ -25,7 +25,7 @@ The HTTPS method is recommended for first-timers. The instructions are here: htt
 
 Be sure to clone from your GitHub, and not from the WTD repo -- you won't be able to push changes back upstream if you choose the wrong repo. Your username should be visible in the address, if you are using the HTTPS method.
 
-(If you want to use the SSH method you have to create a key pair, which will take longer, but free you from having to type your password.)
+(If you want to use the SSH method, you have to create a key pair, which will take longer, but free you from having to type your password.)
 
 ## 5. Use the website to find a page you'd like to edit. (Let's start with small changes.)
 
@@ -123,7 +123,7 @@ You should see the comment you saved when you made the commit. And if you scroll
 
 d. Remember to push the green button that says "Create Pull Request"
 
-## 15.  Your done. Time to celebrate. 
+## 15.  You're done. Time to celebrate. 
 
 For more information on how to do this, see the GitHub documentation:
 https://help.github.com/articles/creating-a-pull-request-from-a-fork/
