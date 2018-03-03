@@ -27,41 +27,42 @@ Be sure to clone from your GitHub, and not from the WTD repo -- you won't be abl
 
 (If you want to use the SSH method you have to create a key pair, which will take longer, but free you from having to type your password.)
 
-## 5. Read the guide for contributors
+## 5. Use the website to find a page you'd like to edit. (Let's start with small changes.)
 
-## 6. Use the website to find a page you'd like to edit. (Let's start with small changes.)
 
-## 7. Navigate through the folder structure in your local Git repo (the copy on your laptop) to find the file.
+## 6. Navigate through the folder structure in your local Git repo (the copy on your laptop) to find the file.
 
-## 8. Open and edit the file, using a plain text editor.
+## 7. Open and edit the file, using a plain text editor.
 
 If you don't have one that you like, you can download Atom, created by the folks at GitHub:
 https://atom.io/
 
-Pay special attention to the markup language. Git is written with Markdown:
-https://guides.github.com/features/mastering-markdown/
+Bookmark the Restructured Text markup guide: 
+http://www.sphinx-doc.org/en/master/rest.html
 
-## 9. Save the file.
+## 8. Save the file.
 
-## 10. Add the file:
+
+## 9. Add the file:
 
 ````
 git add <file name>
 ````
 
-## 11. Check your status to make sure Git noticed:
+
+## 10. Check your status to make sure Git noticed:
 
 ````
 git status
 ````
 
-You should see the name of your edited file in red. That means it has been changed, but has not been committed. In this example, the file documentarians.rst has been edited and then added.
+In this example, the file documentarians.rst has been edited and then added.
 
 ````
 modified:   documentarians.rst
 ````
 
-## 12. Go ahead and commit.
+## 11. Go ahead and commit.
 
 ````
 git commit -a
@@ -69,7 +70,7 @@ git commit -a
 
 You have to enter comments for the commit, so your terminal will automatically open a text editing utility. You can probably save and close by typing CONTROL + O, followed by CONTROL + X.
 
-## 13. Check your status again. It should have changed.
+## 12. Check your status again. It should have changed.
 
 ````
 On branch master
@@ -79,7 +80,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
 
 Your local branch should be ahead by one commit, compared to the remote repo that you cloned.
 
-## 14. You can push the changes up to your remote repo by doing a push:
+## 13. You can push the changes up to your remote repo by doing a push:
 
 ````
 git push origin master
@@ -111,7 +112,7 @@ To https://github.com/cwcromwell/www.git
 
 You're not done yet. The changes are in your GitHub repo, but you need to share them with the folks who own the original project.
 
-## 15. Create a pull request.
+## 14. Create a pull request.
 
 a. Go to the original WTD repo (not yours) and push the button that says New Pull Request. (It's only on the main page.)
 
@@ -122,9 +123,13 @@ You should see the comment you saved when you made the commit. And if you scroll
 
 d. Remember to push the green button that says "Create Pull Request"
 
-## 16. Your done. Time to celebrate. 
+## 15.  Your done. Time to celebrate. 
 
 For more information on how to do this, see the GitHub documentation:
 https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
-## 17. Check out these resources to keep learning:
+## 16. Check out these resources to keep learning:
+
+There's a free book about Git that you can download: 
+
+https://git-scm.com/book/en/v2
