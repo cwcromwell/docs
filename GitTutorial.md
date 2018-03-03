@@ -6,15 +6,22 @@ https://git-scm.com/downloads
 
 
 ## 2. Set up Git by telling it your name:
-https://help.github.com/articles/setting-your-username-in-git/
+
+````
+git config --global user.name "Mona Lisa"
+````
+For more information:  https://help.github.com/articles/setting-your-username-in-git/
 
 ## 3. And your email address:
-https://help.github.com/articles/setting-your-commit-email-address-in-git/
 
-## 4. Make a local folder and clone the repo
+````
+git config --global user.email "email@example.com"
+````
+For more information: https://help.github.com/articles/setting-your-commit-email-address-in-git/
 
-(HTTPS method is recommended for first-timers):
-https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended
+## 4. Make or choose a local folder and clone the repo
+
+The HTTPS method is recommended for first-timers. The instructions are here: https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended
 
 Be sure to clone from your GitHub, and not from the WTD repo -- you won't be able to push changes back upstream if you choose the wrong repo. Your username should be visible in the address, if you are using the HTTPS method.
 
