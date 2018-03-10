@@ -1,7 +1,7 @@
 
 # Tutorial for Git First-Timers: Clone A Repo And Submit Edits to the WTD Guide
 
-If you have any trouble following these steps, or if you find errors or omissions, please open an issue.
+*If you have any trouble following these steps, or if you find errors or omissions, please open an issue. You can also contact the author in the WTD Slack group: @ccromwell.
 
 ## 1. If you've never downloaded Git, get the latest version:
 https://git-scm.com/downloads
