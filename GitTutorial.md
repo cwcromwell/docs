@@ -23,6 +23,8 @@ For more information: https://help.github.com/articles/setting-your-commit-email
 
 ## 4. Make or choose a local folder and clone the repo
 
+Fork the Repo (Click the Fork button in the upper right hand corner. Now you have a copy of the repo in your collection.) If you need more help, use the GitHub docs: https://help.github.com/articles/fork-a-repo/
+
 The HTTPS method is recommended for first-timers. 
 Example: 
 
