@@ -23,7 +23,12 @@ For more information: https://help.github.com/articles/setting-your-commit-email
 
 ## 4. Make or choose a local folder and clone the repo
 
-The HTTPS method is recommended for first-timers. The instructions are here: https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended
+The HTTPS method is recommended for first-timers. 
+Example: 
+
+``git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY``
+
+The instructions are here: https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended
 
 Be sure to clone from your GitHub, and not from the WTD repo -- you won't be able to push changes back upstream if you choose the wrong repo. Your username should be visible in the address, if you are using the HTTPS method.
 
