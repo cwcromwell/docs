@@ -3,25 +3,28 @@
 
 *If you have any trouble following these steps, or if you find errors or omissions, please open an issue. You can also contact the author in the WTD Slack group: @ccromwell.*
 
+Before you begin, you must have a GitHub account. If you don't, sign up at https://github.com/join
+
+
 ## 1. If you've never downloaded Git, get the latest version:
 https://git-scm.com/downloads
 
 If you'd like to find out whether Git is installed, and what version, use this command: 
 ````
-git --version
+$ git --version
 ````
 
 ## 2. Set up Git by telling it your name:
 
 ````
-git config --global user.name "Mona Lisa"
+$ git config --global user.name "Mona Lisa"
 ````
 For more information:  https://help.github.com/articles/setting-your-username-in-git/
 
 ## 3. And your email address:
 
 ````
-git config --global user.email "email@example.com"
+$ git config --global user.email "email@example.com"
 ````
 For more information: https://help.github.com/articles/setting-your-commit-email-address-in-git/
 
@@ -37,7 +40,7 @@ CAUTION: Be sure to clone from your own GitHub, and not from the original repo t
 
 The HTTPS method is recommended for first-timers. Here's an example: 
 
-``git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY``
+``$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY``
 
 Most of that command is the HTTPS address of your repository (starting after the second word of the example above).
  
@@ -68,26 +71,26 @@ http://www.sphinx-doc.org/en/master/rest.html
 ## 9. Add the file:
 
 ````
-git add <file name>
+$ git add <file name>
 ````
 
 
 ## 10. Check your status to make sure Git noticed:
 
 ````
-git status
+$ git status
 ````
 
 In this example output, the file documentarians.rst has been edited and then added:
 
 ````
-modified:   documentarians.rst
+$ modified:   documentarians.rst
 ````
 
 ## 11. Go ahead and commit.
 
 ````
-git commit -a
+$ git commit -a
 ````
 
 You have to enter comments for the commit, so your terminal will automatically open a text editing utility. (You can probably save and close by typing ``CONTROL + O``, followed by ``CONTROL + X``, unless your default text editor is Vim or something equally challenging.)
@@ -105,7 +108,7 @@ Your local branch should be ahead by one commit, compared to the remote repo tha
 ## 13. You can push the changes up to your remote repo by doing a push:
 
 ````
-git push origin master
+$ git push origin master
 
 ````
 
