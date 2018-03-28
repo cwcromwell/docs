@@ -6,6 +6,10 @@
 ## 1. If you've never downloaded Git, get the latest version:
 https://git-scm.com/downloads
 
+If you'd like to find out whether Git is installed, and what version, use this command: 
+````
+git --version
+````
 
 ## 2. Set up Git by telling it your name:
 
@@ -21,25 +25,34 @@ git config --global user.email "email@example.com"
 ````
 For more information: https://help.github.com/articles/setting-your-commit-email-address-in-git/
 
-## 4. Make or choose a local folder and clone the repo
+## 4. Fork the repo you want to work on
 
-Fork the Repo (Click the Fork button in the upper right hand corner. Now you have a copy of the repo in your collection.) If you need more help, use the GitHub docs: https://help.github.com/articles/fork-a-repo/
+To fork the Repo, click the Fork button in the upper right hand corner. Now you have a copy of the repo in your collection.) If you need more help, use the GitHub docs: https://help.github.com/articles/fork-a-repo/
 
-The HTTPS method is recommended for first-timers. 
-Example: 
+## 5. Make or choose a local folder and clone the repo
+
+CAUTION: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you have navigated to. 
+
+CAUTION: Be sure to clone from your own GitHub, and not from the original repo that you forked -- you might not be able to push changes back upstream if you choose the wrong repo. 
+
+The HTTPS method is recommended for first-timers. Here's an example: 
 
 ``git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY``
 
-The instructions are here: https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended
+Most of that command is the HTTPS address of your repository (starting after the second word of the example above).
+ 
+To acquire this HTTPS address, press the green *Clone or Download* button on the main page of the repo -- a pop-up window will show the address (be sure that HTTPS method is selected)
 
-Be sure to clone from your GitHub, and not from the WTD repo -- you won't be able to push changes back upstream if you choose the wrong repo. Your username should be visible in the address, if you are using the HTTPS method.
+Then enter the command line example shown above, using the copied address. After this command executes, you should have a folder with a local clone of the repo. 
+ 
+ TIP: Your username should be visible in the address, if you have chosen the HTTPS method, and if you are indeed cloning from your forked version of the repo. 
 
-(If you want to use the SSH method, you have to create a key pair, which will take longer, but free you from having to type your password.)
+Additional help with the HTTPS method is here: https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended
 
-## 5. Use the website to find a page you'd like to edit. (Let's start with small changes.)
+(If you want to use the SSH method, you have to create a key pair, which will take longer, but free you from having to type your password. It's not covered in this tutorial.)
 
-
-## 6. Navigate through the folder structure in your local Git repo (the copy on your laptop) to find the file.
+## 6. Navigate through the folder structure in your local Git repo and find a file you would like to edit.
+(You can start with small changes like spelling and punctuation. Cloning is enough of a challenge for your first run.)
 
 ## 7. Open and edit the file, using a plain text editor.
 
@@ -49,7 +62,7 @@ https://atom.io/
 Bookmark the Restructured Text markup guide: 
 http://www.sphinx-doc.org/en/master/rest.html
 
-## 8. Save the file.
+## 8. Save the file on your local machine.
 
 
 ## 9. Add the file:
@@ -65,7 +78,7 @@ git add <file name>
 git status
 ````
 
-In this example, the file documentarians.rst has been edited and then added.
+In this example output, the file documentarians.rst has been edited and then added:
 
 ````
 modified:   documentarians.rst
@@ -77,7 +90,7 @@ modified:   documentarians.rst
 git commit -a
 ````
 
-You have to enter comments for the commit, so your terminal will automatically open a text editing utility. You can probably save and close by typing CONTROL + O, followed by CONTROL + X.
+You have to enter comments for the commit, so your terminal will automatically open a text editing utility. (You can probably save and close by typing ``CONTROL + O``, followed by ``CONTROL + X``, unless your default text editor is Vim or something equally challenging.)
 
 ## 12. Check your status again. It should have changed.
 
