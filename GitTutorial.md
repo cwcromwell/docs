@@ -153,7 +153,22 @@ d. Remember to push the green button that says "Create Pull Request"
 For more information on how to do this, see the GitHub documentation:
 https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
-## 16. Check out these resources to keep learning:
+## 16. One more thing -- stay up to date.
+If you continue to edit, you'll need to periodically update your forked repo on github, by pulling down the new content from the original. 
+
+You can do this in a small number of steps: 
+
+* From the main page of your repo, click **New Pull Request**
+* You should see a heading that says "There isn't anything to compare." Under that, click the link that says **Try Switching the Base. . .**
+* Write a heading and comment in the text fields, and then click the button that says **Create Pull Request**
+* Then click **Merge Pull Request**
+* Click the tab right under the name of your repo that says **Pull Requests** (it should have a numeral one nearby, indicating that your pull request is waiting.) 
+* Click on your pull request
+* When the page opens, click **Merge Pull Request**
+* Then click **Confirm Merge**
+* Your'e up to date!
+
+## 17. Check out these resources to keep learning:
 
 There's a free book about Git that you can download: 
 
