@@ -166,7 +166,7 @@ You can do this in a small number of steps:
 * Click on your pull request
 * When the page opens, click **Merge Pull Request**
 * Then click **Confirm Merge**
-* Your'e up to date!
+* You're up to date!
 
 ## 17. Check out these resources to keep learning:
 
