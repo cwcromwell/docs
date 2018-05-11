@@ -17,7 +17,7 @@ $ git --version
 ## 2. Set up Git by telling it your name:
 
 ````
-$ git config --global user.name *"Mona Lisa"*
+$ git config --global user.name "Mona Lisa"
 ````
 For more information:  https://help.github.com/articles/setting-your-username-in-git/
 
