@@ -87,7 +87,7 @@ In this example output, the file documentarians.rst has been edited and then add
 $ modified:   documentarians.rst
 ````
 
-## 11. Go ahead and commit.
+## 11. Go ahead and [commit](https://help.github.com/articles/github-glossary/#commit).
 
 ````
 $ git commit -a
