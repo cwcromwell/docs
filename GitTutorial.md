@@ -6,7 +6,7 @@
 Before you begin, you must have a GitHub account. If you don't, sign up at https://github.com/join
 
 
-## 1. If you've never installed Git, get the latest version:
+## 1. If you've never installed Git, get the latest version here:
 https://git-scm.com/downloads
 
 If you'd like to find out whether Git is installed, and what version, use this command: 
