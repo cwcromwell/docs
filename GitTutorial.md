@@ -6,7 +6,7 @@
 Before you begin, you must have a GitHub account. If you don't, sign up at https://github.com/join
 
 
-## 1. If you've never downloaded Git, get the latest version:
+## 1. If you've never installed Git, get the latest version:
 https://git-scm.com/downloads
 
 If you'd like to find out whether Git is installed, and what version, use this command: 
@@ -17,7 +17,7 @@ $ git --version
 ## 2. Set up Git by telling it your name:
 
 ````
-$ git config --global user.name "Mona Lisa"
+$ git config --global user.name *"Mona Lisa"*
 ````
 For more information:  https://help.github.com/articles/setting-your-username-in-git/
 
@@ -28,11 +28,11 @@ $ git config --global user.email "email@example.com"
 ````
 For more information: https://help.github.com/articles/setting-your-commit-email-address-in-git/
 
-## 4. Fork the repo you want to work on
+## 4. [Fork](https://help.github.com/articles/github-glossary/#fork) the repo you want to work on
 
 To fork the Repo, click the Fork button in the upper right hand corner. Now you have a copy of the repo in your collection.) If you need more help, use the GitHub docs: https://help.github.com/articles/fork-a-repo/
 
-## 5. Make or choose a local folder and clone the repo
+## 5. Make or choose a local folder and [clone](https://help.github.com/articles/github-glossary/#clone) the repo
 
 CAUTION: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you have navigated to. 
 
@@ -90,10 +90,8 @@ $ modified:   documentarians.rst
 ## 11. Go ahead and [commit](https://help.github.com/articles/github-glossary/#commit).
 
 ````
-$ git commit -a
+$ git commit -m "Add a comment about the changes you made here" 
 ````
-
-You have to enter comments for the commit, so your terminal will automatically open a text editing utility. (You can probably save and close by typing ``CONTROL + O``, followed by ``CONTROL + X``, unless your default text editor is Vim or something equally challenging.)
 
 ## 12. Check your status again. It should have changed.
 
@@ -105,7 +103,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
 
 Your local branch should be ahead by one commit, compared to the remote repo that you cloned.
 
-## 13. You can push the changes up to your remote repo by doing a push:
+## 13. You can [push](https://help.github.com/articles/github-glossary/#push) the changes up to your remote repo:
 
 ````
 $ git push origin master
@@ -137,7 +135,7 @@ To https://github.com/cwcromwell/www.git
 
 You're not done yet. The changes are in your GitHub repo, but you need to share them with the folks who own the original project.
 
-## 14. Create a pull request.
+## 14. Create a [pull request](https://help.github.com/articles/github-glossary/#pull-request).
 
 a. Go to the original WTD repo (not yours) and push the button that says New Pull Request. (It's only on the main page.)
 
@@ -168,8 +166,8 @@ You can do this in a small number of steps:
 * Then click **Confirm Merge**
 * You're up to date!
 
-## 17. Check out these resources to keep learning:
+## 17. Check out other resources to keep learning:
 
-There's a free book about Git that you can download: 
-
-https://git-scm.com/book/en/v2
+* There's a free book about Git that you can download: https://git-scm.com/book/en/v2
+*Take a look at the the GitHub documentation
+* Find Git courses on [Udemy](www.udemy.com)
