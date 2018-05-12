@@ -152,15 +152,23 @@ If you continue to edit, you'll need to periodically update your forked repo on 
 
 You can do this in a small number of steps: 
 
-1. From the main page of your repo, click **New Pull Request**
-1. You should see a heading that says "There isn't anything to compare." Under that, click the link that says **Try Switching the Base. . .**
-1. Write a heading and comment in the text fields, and then click the button that says **Create Pull Request**
-1. Then click **Merge Pull Request**
-1. Click the tab right under the name of your repo that says **Pull Requests** (it should have a numeral one nearby, indicating that your pull request is waiting.) 
-1. Click on your pull request
-1. When the page opens, click **Merge Pull Request**
-1. Then click **Confirm Merge**
-1. You're up to date!
+a. From the main page of your repo, click **New Pull Request**
+
+b. You should see a heading that says "There isn't anything to compare." Under that, click the link that says **Try Switching the Base. . .**
+
+c. Write a heading and comment in the text fields, and then click the button that says **Create Pull Request**
+
+d. Then click **Merge Pull Request**
+
+e. Click the tab right under the name of your repo that says **Pull Requests** (it should have a numeral one nearby, indicating that your pull request is waiting.) 
+
+f. Click on your pull request
+
+g. When the page opens, click **Merge Pull Request**
+
+h. Then click **Confirm Merge**
+
+i. You're up to date!
 
 ## 17. Check out other resources to keep learning:
 
