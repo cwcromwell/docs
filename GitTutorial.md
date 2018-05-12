@@ -32,11 +32,11 @@ To fork the Repo, click the **Fork** button in the upper right hand corner. Now 
 For more information: [Fork a repo](https://help.github.com/articles/fork-a-repo/)
 
 ## 5. Make or choose a local folder and [clone](https://help.github.com/articles/github-glossary/#clone) the repo
+### 5A. But before you start 
 **CAUTION**: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
 
 **CAUTION**: Be sure to clone from your own GitHub, and not from the original repo that you forked -- otherwise, you might not be able to push changes upstream. 
-
-The HTTPS method is recommended for first-timers. Here's an example: 
+### 5B. When you're ready, The HTTPS method is recommended for first-timers. Here's an example: 
 
 ``$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY``
 
@@ -47,10 +47,12 @@ To acquire this HTTPS address, press the green **Clone or Download** button on t
 Then enter the command line example shown above, using the copied address. After this command executes, you should have a folder containing a local copy of the repo. 
  
  **TIP**: Your username should be visible in the address, if you have chosen the HTTPS method, and if you are indeed cloning from your forked version of the repo. 
+ 
+ ### 5C. If you have a folder full of content, congratulations!
 
 For more information: [Cloning with HTTPS URLs recommended](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
-(If you want to use the [SSH method](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls), you have to create a key pair, which will take longer but free you from having to type your password. It's not covered in this tutorial.)
+If you want to use the [SSH method](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls) instead of HTTP, you have to create a key pair, which will take longer but free you from having to type your password. It's not covered in this tutorial.
 
 ## 6. Navigate through the folder structure in your local Git repo and find a file you would like to edit.
 (Small changes like spelling and punctuation are fine for the first run.)
@@ -151,15 +153,15 @@ If you continue to edit, you'll need to periodically update your forked repo on 
 
 You can do this in a small number of steps: 
 
-* From the main page of your repo, click **New Pull Request**
-* You should see a heading that says "There isn't anything to compare." Under that, click the link that says **Try Switching the Base. . .**
-* Write a heading and comment in the text fields, and then click the button that says **Create Pull Request**
-* Then click **Merge Pull Request**
-* Click the tab right under the name of your repo that says **Pull Requests** (it should have a numeral one nearby, indicating that your pull request is waiting.) 
-* Click on your pull request
-* When the page opens, click **Merge Pull Request**
-* Then click **Confirm Merge**
-* You're up to date!
+a. From the main page of your repo, click **New Pull Request**
+b. You should see a heading that says "There isn't anything to compare." Under that, click the link that says **Try Switching the Base. . .**
+c. Write a heading and comment in the text fields, and then click the button that says **Create Pull Request**
+d. Then click **Merge Pull Request**
+e. Click the tab right under the name of your repo that says **Pull Requests** (it should have a numeral one nearby, indicating that your pull request is waiting.) 
+f. Click on your pull request
+g. When the page opens, click **Merge Pull Request**
+h. Then click **Confirm Merge**
+i. You're up to date!
 
 ## 17. Check out other resources to keep learning:
 
