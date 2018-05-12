@@ -1,6 +1,5 @@
 
 # Tutorial for Git First-Timers: Clone the Repo and Submit Edits to the Lone Writer's Guide
-
 *If you have any trouble following these steps, or if you find errors or omissions, please open an issue. You can also contact the author in the WTD Slack group: @ccromwell.*
 
 Before you begin, you must have a GitHub account. If you don't, sign up at https://github.com/join
@@ -29,12 +28,10 @@ $ git config --global user.email "email@example.com"
 For more information: [Setting your commit email address in Git](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
 
 ## 4. [Fork](https://help.github.com/articles/github-glossary/#fork) the repo you want to work on
-
 To fork the Repo, click the **Fork** button in the upper right hand corner. Now you have a copy of the repo in your collection.
 For more information: [Fork a repo](https://help.github.com/articles/fork-a-repo/)
 
 ## 5. Make or choose a local folder and [clone](https://help.github.com/articles/github-glossary/#clone) the repo
-
 **CAUTION**: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
 
 **CAUTION**: Be sure to clone from your own GitHub, and not from the original repo that you forked -- otherwise, you might not be able to push changes upstream. 
@@ -59,7 +56,6 @@ For more information: [Cloning with HTTPS URLs recommended](https://help.github.
 (Small changes like spelling and punctuation are fine for the first run.)
 
 ## 7. Open and edit the file, using a plain text editor.
-
 If you don't have one that you like, you can download Atom, created by the folks at GitHub:
 https://atom.io/
 
@@ -137,7 +133,6 @@ To https://github.com/cwcromwell/www.git
 You're not done yet. The changes are in your GitHub repo, but you need to share them with the folks who own the original project. The next step explains how to do that.
 
 ## 14. Create a [pull request](https://help.github.com/articles/github-glossary/#pull-request).
-
 a. Go to the original original repo (In this case the [Lone Writer's Guide at SF Write The Docs](https://github.com/San-Francisco-Write-The-Docs/lone-writers-guide)) and push the button that says **New Pull Request**. (It's only on the main page.)
 
 b. Click the blue link that says **Compare Across Forks**.
@@ -148,7 +143,6 @@ You should see the comment you saved when you made the commit. And if you scroll
 d. Remember to push the green button that says "**Create Pull Request**."
 
 ## 15.  You're done. Time to celebrate. 
-
 For more information on how to do this, see the GitHub documentation:
 https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
