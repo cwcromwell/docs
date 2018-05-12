@@ -1,5 +1,5 @@
 
-# Tutorial for Git First-Timers: Clone A Repo And Submit Edits to the Lone Writer's Guide
+# Tutorial for Git First-Timers: Clone the Repo and Submit Edits to the Lone Writer's Guide
 
 *If you have any trouble following these steps, or if you find errors or omissions, please open an issue. You can also contact the author in the WTD Slack group: @ccromwell.*
 
@@ -19,24 +19,25 @@ $ git --version
 ````
 $ git config --global user.name "Mona Lisa"
 ````
-For more information:  https://help.github.com/articles/setting-your-username-in-git/
+For more information, use the GitHub docs: [Setting your username in Git](https://help.github.com/articles/setting-your-username-in-git/)
 
 ## 3. And your email address:
 
 ````
 $ git config --global user.email "email@example.com"
 ````
-For more information: https://help.github.com/articles/setting-your-commit-email-address-in-git/
+For more information: [Setting your commit email address in Git](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
 
 ## 4. [Fork](https://help.github.com/articles/github-glossary/#fork) the repo you want to work on
 
-To fork the Repo, click the **Fork** button in the upper right hand corner. Now you have a copy of the repo in your collection.) If you need more help, use the GitHub docs: https://help.github.com/articles/fork-a-repo/
+To fork the Repo, click the **Fork** button in the upper right hand corner. Now you have a copy of the repo in your collection.
+For more information: [Fork a repo](https://help.github.com/articles/fork-a-repo/)
 
 ## 5. Make or choose a local folder and [clone](https://help.github.com/articles/github-glossary/#clone) the repo
 
-CAUTION: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
+**CAUTION**: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
 
-CAUTION: Be sure to clone from your own GitHub, and not from the original repo that you forked -- you might not be able to push changes back upstream if you choose the wrong repo. 
+**CAUTION**: Be sure to clone from your own GitHub, and not from the original repo that you forked -- otherwise, you might not be able to push changes upstream. 
 
 The HTTPS method is recommended for first-timers. Here's an example: 
 
@@ -48,25 +49,25 @@ To acquire this HTTPS address, press the green **Clone or Download** button on t
 
 Then enter the command line example shown above, using the copied address. After this command executes, you should have a folder containing a local copy of the repo. 
  
- TIP: Your username should be visible in the address, if you have chosen the HTTPS method, and if you are indeed cloning from your forked version of the repo. 
+ **TIP**: Your username should be visible in the address, if you have chosen the HTTPS method, and if you are indeed cloning from your forked version of the repo. 
 
 For more information: [Cloning with HTTPS URLs recommended](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
-(If you want to use the SSH method, you have to create a key pair, which will take longer but free you from having to type your password. It's not covered in this tutorial.)
+(If you want to use the [SSH method](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls), you have to create a key pair, which will take longer but free you from having to type your password. It's not covered in this tutorial.)
 
 ## 6. Navigate through the folder structure in your local Git repo and find a file you would like to edit.
-(You can start with small changes like spelling and punctuation. Cloning is enough of a challenge for your first run.)
+(Small changes like spelling and punctuation are fine for the first run.)
 
 ## 7. Open and edit the file, using a plain text editor.
 
 If you don't have one that you like, you can download Atom, created by the folks at GitHub:
 https://atom.io/
 
-Bookmark the Restructured Text markup guide: 
+Bookmark the reStructuredText markup guide: 
 http://www.sphinx-doc.org/en/master/rest.html
 
 ## 8. Save the file on your local machine.
-
+This is the easiest Step, and you're more than halfway done. 
 
 ## 9. Add the file:
 
@@ -133,7 +134,7 @@ To https://github.com/cwcromwell/www.git
 
 ````
 
-You're not done yet. The changes are in your GitHub repo, but you need to share them with the folks who own the original project.
+You're not done yet. The changes are in your GitHub repo, but you need to share them with the folks who own the original project. The next step explains how to do that.
 
 ## 14. Create a [pull request](https://help.github.com/articles/github-glossary/#pull-request).
 
