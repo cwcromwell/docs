@@ -33,7 +33,7 @@ For more information: [Fork a repo](https://help.github.com/articles/fork-a-repo
 
 ## 5. Make or choose a local folder and [clone](https://help.github.com/articles/github-glossary/#clone) the repo
 ### 5A. But before you start 
-**CAUTION**: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
+**CAUTION**: First decide where you want the cloned repo to be saved on your computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
 
 **CAUTION**: Be sure to clone from your own GitHub, and not from the original repo that you forked -- otherwise, you might not be able to push changes upstream. 
 ### 5B. When you're ready, The HTTPS method is recommended for first-timers. Here's an example: 
@@ -48,7 +48,7 @@ Then enter the command line example shown above, using the copied address. After
  
  **TIP**: Your username should be visible in the address, if you have chosen the HTTPS method, and if you are indeed cloning from your forked version of the repo. 
  
- ### 5C. If you have a folder full of content, congratulations!
+ ### 5C. If you have a folder full of content, congratulations! Now, two more things: 
 
 For more information: [Cloning with HTTPS URLs recommended](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
@@ -135,7 +135,7 @@ To https://github.com/cwcromwell/www.git
 You're not done yet. The changes are in your GitHub repo, but you need to share them with the folks who own the original project. The next step explains how to do that.
 
 ## 14. Create a [pull request](https://help.github.com/articles/github-glossary/#pull-request).
-a. Go to the original original repo (In this case the [Lone Writer's Guide at SF Write The Docs](https://github.com/San-Francisco-Write-The-Docs/lone-writers-guide)) and push the button that says **New Pull Request**. (It's only on the main page.)
+a. Go to the original repo (In this case the [Lone Writer's Guide at SF Write The Docs](https://github.com/San-Francisco-Write-The-Docs/lone-writers-guide)) and push the button that says **New Pull Request**. (It's only on the main page.)
 
 b. Click the blue link that says **Compare Across Forks**.
 
@@ -149,7 +149,7 @@ For more information on how to do this, see the GitHub documentation:
 https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 ## 16. One more thing -- stay up to date.
-If you continue to edit, you'll need to periodically update your forked repo on github, by pulling down the new content from the original. 
+If you continue to edit, you'll need to periodically update your forked repo on GitHub, by pulling down the new content from the original. 
 
 You can do this in a small number of steps: 
 
