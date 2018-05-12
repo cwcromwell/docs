@@ -1,5 +1,5 @@
 
-# Tutorial for Git First-Timers: Clone A Repo And Submit Edits to the WTD Guide
+# Tutorial for Git First-Timers: Clone A Repo And Submit Edits to the Lone Writer's Guide
 
 *If you have any trouble following these steps, or if you find errors or omissions, please open an issue. You can also contact the author in the WTD Slack group: @ccromwell.*
 
@@ -30,11 +30,11 @@ For more information: https://help.github.com/articles/setting-your-commit-email
 
 ## 4. [Fork](https://help.github.com/articles/github-glossary/#fork) the repo you want to work on
 
-To fork the Repo, click the Fork button in the upper right hand corner. Now you have a copy of the repo in your collection.) If you need more help, use the GitHub docs: https://help.github.com/articles/fork-a-repo/
+To fork the Repo, click the **Fork** button in the upper right hand corner. Now you have a copy of the repo in your collection.) If you need more help, use the GitHub docs: https://help.github.com/articles/fork-a-repo/
 
 ## 5. Make or choose a local folder and [clone](https://help.github.com/articles/github-glossary/#clone) the repo
 
-CAUTION: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you have navigated to. 
+CAUTION: First decide where you want the cloned repo to be saved on you computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
 
 CAUTION: Be sure to clone from your own GitHub, and not from the original repo that you forked -- you might not be able to push changes back upstream if you choose the wrong repo. 
 
@@ -44,15 +44,15 @@ The HTTPS method is recommended for first-timers. Here's an example:
 
 Most of that command is the HTTPS address of your repository (starting after the second word of the example above).
  
-To acquire this HTTPS address, press the green *Clone or Download* button on the main page of the repo -- a pop-up window will show the address (be sure that HTTPS method is selected)
+To acquire this HTTPS address, press the green **Clone or Download** button on the main page of the repo -- a dialog box will show the address (be sure that HTTPS method is selected)
 
-Then enter the command line example shown above, using the copied address. After this command executes, you should have a folder with a local clone of the repo. 
+Then enter the command line example shown above, using the copied address. After this command executes, you should have a folder containing a local copy of the repo. 
  
  TIP: Your username should be visible in the address, if you have chosen the HTTPS method, and if you are indeed cloning from your forked version of the repo. 
 
-Additional help with the HTTPS method is here: https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended
+For more information: [Cloning with HTTPS URLs recommended](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
-(If you want to use the SSH method, you have to create a key pair, which will take longer, but free you from having to type your password. It's not covered in this tutorial.)
+(If you want to use the SSH method, you have to create a key pair, which will take longer but free you from having to type your password. It's not covered in this tutorial.)
 
 ## 6. Navigate through the folder structure in your local Git repo and find a file you would like to edit.
 (You can start with small changes like spelling and punctuation. Cloning is enough of a challenge for your first run.)
@@ -137,14 +137,14 @@ You're not done yet. The changes are in your GitHub repo, but you need to share 
 
 ## 14. Create a [pull request](https://help.github.com/articles/github-glossary/#pull-request).
 
-a. Go to the original WTD repo (not yours) and push the button that says New Pull Request. (It's only on the main page.)
+a. Go to the original original repo (In this case the [Lone Writer's Guide at SF Write The Docs](https://github.com/San-Francisco-Write-The-Docs/lone-writers-guide)) and push the button that says **New Pull Request**. (It's only on the main page.)
 
-b. Click the blue link that says Compare Across Forks
+b. Click the blue link that says **Compare Across Forks**.
 
 c. Use the third pulldown window from the left to choose the name of your fork repo
 You should see the comment you saved when you made the commit. And if you scroll down, you should be able to see a diff of the changes to the document. 
 
-d. Remember to push the green button that says "Create Pull Request"
+d. Remember to push the green button that says "**Create Pull Request**."
 
 ## 15.  You're done. Time to celebrate. 
 
