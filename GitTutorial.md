@@ -145,8 +145,7 @@ You should see the comment you saved when you made the commit. And if you scroll
 d. Remember to push the green button that says "**Create Pull Request**."
 
 ## 15.  You're done. Time to celebrate. 
-For more information on how to do this, see the GitHub documentation:
-https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+For more information on how to do this, see the [GitHub documentation](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
 ## 16. One more thing -- stay up to date.
 If you continue to edit, you'll need to periodically update your forked repo on GitHub, by pulling down the new content from the original. 
@@ -165,6 +164,7 @@ i. You're up to date!
 
 ## 17. Check out other resources to keep learning:
 
-* There's a free book about Git that you can download: https://git-scm.com/book/en/v2
+* There's a free book about Git that you can download: https://git-scm.com/book/en/v2 
+
 *Take a look at the the GitHub documentation
 * Find Git courses on [Udemy](www.udemy.com)
