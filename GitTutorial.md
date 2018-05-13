@@ -152,7 +152,7 @@ For more information on how to do this, see the [GitHub documentation](https://h
 ## 16. One more thing -- stay up to date.
 If you continue to edit, you'll need to periodically update your forked repo on GitHub, by pulling down the new content from the original. 
 
-You can do this in a small number of steps: 
+You can do it like this: 
 
 a. From the main page of your repo, click **New Pull Request**
 
