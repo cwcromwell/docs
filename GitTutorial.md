@@ -32,10 +32,12 @@ To fork the Repo, click the **Fork** button in the upper right hand corner. Now 
 For more information: [Fork a repo](https://help.github.com/articles/fork-a-repo/)
 
 ## 5. Make or choose a local folder and [clone](https://help.github.com/articles/github-glossary/#clone) the repo
-### 5A. But before you start 
-**CAUTION**: First decide where you want the cloned repo to be saved on your computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
+### 5A. CAUTION: before you start, make sure you're ready 
 
-**CAUTION**: Be sure to clone from your own GitHub, and not from the original repo that you forked -- otherwise, you might not be able to push changes upstream. 
+* First decide where you want the cloned repo to be saved on your computer. Navigate there in the terminal before cloning (use the ``cd `` command). Git will create a new folder when you clone, inside whatever folder you are in. 
+
+* Be sure to clone from your own GitHub, and not from the original repo that you forked -- otherwise, you might not be able to push changes upstream. 
+
 ### 5B. When you're ready, The HTTPS method is recommended for first-timers. Here's an example: 
 
 ``$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY``
