@@ -2,7 +2,7 @@
 # Tutorial for Git First-Timers: Clone the Repo and Submit Edits to the Lone Writer's Guide
 *If you have any trouble following these steps, or if you find errors or omissions, please open an issue. You can also contact the author in the WTD Slack group: @ccromwell.*
 
-Before you begin, you must have a GitHub account. If you don't, sign up at https://github.com/join
+Before you begin, you must have a GitHub account. If you don't, sign up at https://github.com/join.
 
 
 ## 1. If you've never installed Git, get the latest version here:
@@ -18,18 +18,18 @@ $ git --version
 ````
 $ git config --global user.name "Mona Lisa"
 ````
-For more information, use the GitHub docs: [Setting your username in Git](https://help.github.com/articles/setting-your-username-in-git/)
+For more information, use the GitHub docs: see ["Setting your username in Git"](https://help.github.com/articles/setting-your-username-in-git/).
 
 ## 3. And your email address:
 
 ````
 $ git config --global user.email "email@example.com"
 ````
-For more information: [Setting your commit email address in Git](https://help.github.com/articles/setting-your-commit-email-address-in-git/)
+For more information, see ["Setting your commit email address in Git"](https://help.github.com/articles/setting-your-commit-email-address-in-git/).
 
 ## 4. [Fork](https://help.github.com/articles/github-glossary/#fork) the repo you want to work on
-To fork the Repo, click the **Fork** button in the upper right hand corner. Now you have a copy of the repo in your collection.
-For more information: [Fork a repo](https://help.github.com/articles/fork-a-repo/)
+To fork the Repo, click the **Fork** button in the upper right hand corner. This makes a copy of the repo in your collection.
+For more information, see ["Fork a repo"](https://help.github.com/articles/fork-a-repo/).
 
 ## 5. Make or choose a local folder and [clone](https://help.github.com/articles/github-glossary/#clone) the repo
 ### 5A. CAUTION: before you start, make sure you're ready 
@@ -44,7 +44,7 @@ For more information: [Fork a repo](https://help.github.com/articles/fork-a-repo
 
 Most of that command is the HTTPS address of your repository (starting after the second word of the example above).
  
-To acquire this HTTPS address, press the green **Clone or Download** button on the main page of the repo -- a dialog box will show the address (be sure that HTTPS method is selected)
+To acquire this HTTPS address, press the green **Clone or Download** button on the main page of the repo — a dialog box will show the address (be sure that HTTPS method is selected)
 
 Then enter the command line example shown above, using the copied address. After this command executes, you should have a folder containing a local copy of the repo. 
  
@@ -52,19 +52,18 @@ Then enter the command line example shown above, using the copied address. After
  
  ### 5C. If you have a folder full of content, congratulations! Now, two more things: 
 
-For more information: [Cloning with HTTPS URLs recommended](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
+For more information, see ["Cloning with HTTPS URLs recommended"](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended)
 
-If you want to use the [SSH method](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls) instead of HTTP, you have to create a key pair, which will take longer but free you from having to type your password. It's not covered in this tutorial.
+If you want to use the [SSH method](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls) instead of HTTP, you can create a key pair, which will take longer but free you from typing your password.
 
 ## 6. Navigate through the folder structure in your local Git repo and find a file you would like to edit.
 (Small changes like spelling and punctuation are fine for the first run.)
 
 ## 7. Open and edit the file, using a plain text editor.
-If you don't have one that you like, you can download Atom, created by the folks at GitHub:
-https://atom.io/
+If you don't have one that you like, you can download [Atom](https://atom.io/), created by the folks at GitHub.
 
-Bookmark the reStructuredText markup guide: 
-http://www.sphinx-doc.org/en/master/rest.html
+
+Bookmark the [reStructuredText markup guide](http://www.sphinx-doc.org/en/master/rest.html).
 
 ## 8. Save the file on your local machine.
 This is the easiest Step, and you're more than halfway done. 
@@ -137,7 +136,7 @@ To https://github.com/cwcromwell/www.git
 You're not done yet. The changes are in your GitHub repo, but you need to share them with the folks who own the original project. The next step explains how to do that.
 
 ## 14. Create a [pull request](https://help.github.com/articles/github-glossary/#pull-request).
-a. Go to the original repo (In this case the [Lone Writer's Guide at SF Write The Docs](https://github.com/San-Francisco-Write-The-Docs/lone-writers-guide)) and push the button that says **New Pull Request**. (It's only on the main page.)
+a. Go to the main page of the original repo (In this case the [Lone Writer's Guide at SF Write The Docs](https://github.com/San-Francisco-Write-The-Docs/lone-writers-guide)) and push the button that says **New Pull Request**. 
 
 b. Click the blue link that says **Compare Across Forks**.
 
@@ -147,7 +146,7 @@ You should see the comment you saved when you made the commit. And if you scroll
 d. Remember to push the green button that says "**Create Pull Request**."
 
 ## 15.  You're done. Time to celebrate. 
-For more information on how to do this, see the [GitHub documentation](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+For more information on how to do this, see the [GitHub documentation](https://help.github.com/articles/creating-a-pull-request-from-a-fork/).
 
 ## 16. One more thing -- stay up to date.
 If you continue to edit, you'll need to periodically update your forked repo on GitHub, by pulling down the new content from the original. 
@@ -162,9 +161,9 @@ c. Write a heading and comment in the text fields, and then click the button tha
 
 d. Then click **Merge Pull Request**
 
-e. Click the tab right under the name of your repo that says **Pull Requests** (it should have a numeral one nearby, indicating that your pull request is waiting.) 
+e. Click the tab right under the name of your repo that says **Pull Requests** 
 
-f. Click on your pull request
+f. Click your pull request
 
 g. When the page opens, click **Merge Pull Request**
 
