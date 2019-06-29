@@ -1,4 +1,4 @@
-**NOTE**: The link to this document has been removed from the Lone Writer's Guide. It's not a recommended workflow. Edit the Lone Writer's Guide by using the edit button in the browser or by cloning directly from the WTD repo, without forking. 
+<p style="color:red;"> **NOTE**: The link to this document has been removed from the Lone Writer's Guide. It's not a recommended workflow. Edit the Lone Writer's Guide by using the edit button in the browser or by cloning directly from the WTD repo, without forking. </p>
 
 # Tutorial for Git First-Timers: Clone the Repo and Submit Pull Requests
 *If you have any trouble following these steps, or if you find errors or omissions, please open an issue. You can also contact the author in the WTD Slack group: @ccromwell.*
