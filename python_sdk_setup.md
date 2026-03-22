@@ -89,7 +89,7 @@ pip install --no-build-isolation pandas
 
 ~~~
 
-It worked. Here's the output of the successful installation:
+It worked. Here's the output of the successful `pandas` installation:
 
 ~~~
 Collecting pandas
@@ -120,7 +120,7 @@ pip3 install -r requirements.txt
 
 ~~~
 
-Successful installation of dependencies (other than `pandas`) looked like this; 
+The installation of remaining dependencies had this output: 
 
 ~~~
 Collecting urllib3==1.26.5 (from -r requirements.txt (line 1))
@@ -148,7 +148,7 @@ Successfully installed SQLAlchemy-1.3.3 aenum-2.1.2 certifi-2019.3.9 urllib3-1.2
 
 ~~~
 
-This completed the installation of requirements. 
+This appeared to complete the installation of dependencies. 
 
 
 1. I tested the SDK by using the --help flag. The schema seems to suggest that you can type FeedSDK, but the actual call is `python feed_cli.py`,
@@ -160,7 +160,7 @@ chmod 744 feed_cli.py
 
 ~~~
 
-Then I ran: 
+Then I tested my results by attempting to run the SDK with the `--help` flag.
 
 ~~~
 python3 feed_cli.py --help,
@@ -194,7 +194,7 @@ pip install --no-build-isolation pandas
 
 ~~~
 
-The first four commands were to get the right version of Python running in the local environment, and the final two were needed to reinstall the dependencies. I installed pandas separately again, since that had been necessary in the first attempt. 
+The first four commands were to get the right version of Python running in the local environment, and the final two were needed to reinstall the dependencies. I installed `pandas` separately again, since that had been necessary in the first attempt. 
 
 
 Finally, I ran the SDK with the help flag, successfully.
