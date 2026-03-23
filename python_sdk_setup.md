@@ -1,4 +1,4 @@
-# How I got started with the eBay Python Feed SDK
+# How I got started with the eBay's FeedSDK-Python
 
 Here's what I've done so far:
 
