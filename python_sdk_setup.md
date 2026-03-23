@@ -1,10 +1,10 @@
-# How I got started with the Ebay Python Feed SDK
+# Get started with the eBay Python Feed SDK
 
 Here's what I did:
 
-* Clone the repository 
-* Install and debug dependencies
-* Test usability 
+* Cloned the repository 
+* Installed and debugged dependencies
+* Verified usability 
 
 Up next: 
 
@@ -23,7 +23,7 @@ git clone https://github.com/eBay/FeedSDK-Python.git
 
 ~~~
 
-1. Installed requirements with pip. (I actually have pip3, rather than pip, because of the requirements of macOS and mac silicon.)
+2. Installed requirements with pip. (I actually have pip3, rather than pip, because of the requirements of macOS and mac silicon.)
 
 ~~~
 pip3 install -r requirements.txt
@@ -74,22 +74,15 @@ source venv/bin/activate
 
 ### Solution: Panda install subprocess was using rogue Python version
 
-I had to go to Claude for help with the other error.
-On Claude's advice, I attempted to re-install the missing module locally in the virtual environment. When that didn't work, Claude recommended a force-reinstall, just to be sure. 
-
-~~~
-pip3 install --upgrade setuptools 
-pip3 install --force-reinstall setuptools 
-~~~
-
-Since the error was still present, but this time Claude identified the issue based on the full error message: the subprocess was running its own version of Python and not using Python 3.11 or the version of setuptools I had installed. Claude suggested the following: 
+This one step where I needed Claude's help.
+The initial advice was to reinstall and then force-reinstall the setuptools module. The error message persisted. When none of that worked, I provided every bit of the error text from the console, and Claude identified the issue: the subprocess was running its own version of Python and not using the versions of Python or setuptools I had installed. Claude suggested unblocking the `pandas` installation as follows: 
 
 ~~~
 pip install --no-build-isolation pandas
 
 ~~~
 
-It worked. Here's the output of the successful `pandas` installation:
+It worked. Here's the output:
 
 ~~~
 Collecting pandas
@@ -111,9 +104,9 @@ Successfully installed numpy-2.4.3 pandas-3.0.1 python-dateutil-2.9.0.post0 six-
 
 ~~~
 
-Claude explaind that this command "tells pip to use your current environments packages (including your freshly installed setuptools) instead of spinning up a clean subprocess."
+According to Claude this command "tells pip to use your current environments packages (including your freshly installed setuptools) instead of spinning up a clean subprocess."
 
-I finished installing the dependencies by removing pandas from the `requirements.txt` file and re-running the command: 
+I finished the dependencies by removing pandas from the `requirements.txt` file and re-running the installation command: 
 
 ~~~
 pip3 install -r requirements.txt
@@ -148,29 +141,29 @@ Successfully installed SQLAlchemy-1.3.3 aenum-2.1.2 certifi-2019.3.9 urllib3-1.2
 
 ~~~
 
-This appeared to complete the installation of dependencies. 
+This installation was done — almost. 
 
 
-1. I tested the SDK by using the --help flag. The schema seems to suggest that you can type FeedSDK, but the actual call is `python feed_cli.py`,
+3. I attempted to test the SDK by using the --help flag, but there were still problems. 
 
-When downloaded, the permissions were lacking, so I first had to change permissions to the executable to make it runnable by me and readable by other users: 
+~~~
+python feed_cli.py --help
+
+~~~
+
+First, I changed permissions of the file to make it executable: 
 
 ~~~
 chmod 744 feed_cli.py
 
 ~~~
 
-Then I tested my results by attempting to run the SDK with the `--help` flag.
-
-~~~
-python3 feed_cli.py --help,
-
-~~~
+Then I tried the `--help` flag again and there was a new error message.
 
 
 ### Problem: Module called `getargspec` is nowhere to be found
 
-The result of using the help flag was a new error, which read in part:
+The error message read in part:
 
 ~~~
     args, varargs, keywords, defaults = inspect.getargspec(method)
@@ -181,7 +174,7 @@ AttributeError: module 'inspect' has no attribute 'getargspec'. Did you mean: 'g
 
 ### Solution: Change everything to Python 3.10
 
-The apparent problem is Python incompatibility in the project. After a bit of back-and-forth with Claude, including an attempt to try different versions of aenum, I changed the local python version in my virtual environment to Python 3.10 and re-installed the dependencies. This meant running all the following: 
+The issue was Python version incompatibility with the project. After a bit of back-and-forth with Claude, including an attempt to try different versions of `aenum`, I changed the local python version in my virtual environment to Python 3.10 and re-installed the dependencies. This meant running all the following: 
 
 ~~~
 pyenv install 3.10
@@ -200,7 +193,7 @@ The first four commands were to get the right version of Python running in the l
 Finally, I ran the SDK with the help flag, successfully.
 
 ~~~
-python3 feed_cli.py --help,
+python3 feed_cli.py --help
 
 ~~~
 
@@ -251,9 +244,9 @@ options:
 ~~~
 
 
-### Future installation instructions 
+### Revised setup instructions
 
-For future reference, here's the straightforward way to set up FeedSDK-Python on systems like mine. 
+Here's the straightforward way to set up FeedSDK-Python on systems like mine. 
 
 1. Clone the repository
 
@@ -262,7 +255,7 @@ git clone https://github.com/eBay/FeedSDK-Python.git
 
 ~~~
 
-1. Use `pyenv` to install Python 3.10, if it isn't installed already, and make it the local version in te FeedSDK-Python repo
+1. Use `pyenv` to install Python 3.10, if it isn't installed already, and make it the local version in the FeedSDK-Python repo
 
 ~~~
 pyenv install 3.10
