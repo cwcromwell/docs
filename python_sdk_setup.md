@@ -1,6 +1,6 @@
-# Get started with the eBay Python Feed SDK
+# How I got started with the eBay Python Feed SDK
 
-Here's what I did:
+Here's what I've done so far:
 
 * Cloned the repository 
 * Installed and debugged dependencies
